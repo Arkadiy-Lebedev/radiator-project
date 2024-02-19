@@ -1,0 +1,21 @@
+export interface IRadiator {
+    section: string,
+    height: number | null,
+    quantity: number | null,
+    eyeliner: string,
+    color: string,
+    section_type: null | number,
+    eyeliner_type: string,
+    boiler_name: string,
+    boiler_type: null | number,
+    hot_water: string,
+    hot_water_type: null | number,
+    hot_water_volume: string,
+    power1: string,
+    power2: string,
+    node: string[] | [],
+    smoke: string,
+    sensor: string[] | [],
+    automatic: string,
+    installation: string[] | []
+}
